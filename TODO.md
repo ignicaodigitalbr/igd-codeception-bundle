@@ -5,8 +5,8 @@
 | user@host:~$ php app/console igd:codeception:selenium
 |- :get | :status | :start | :stop | :remove
 
-|[0] # This command namespace must implement the scalfold interface
-| user@host:~$ php app/console igd:codeception:scalfold
+|[0] # This command namespace must implement the scaffold interface
+| user@host:~$ php app/console igd:codeception:scaffold
 |- ( :test | :suite | :module ) --create --remove
 
 |[0] # This command namespace must implement the driver interface
