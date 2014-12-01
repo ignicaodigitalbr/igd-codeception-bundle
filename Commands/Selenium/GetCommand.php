@@ -44,7 +44,7 @@ class GetCommand extends Command
     {
         $this
             ->setName('igd:codeception:selenium:get')
-            ->setDescription('Get the selenium standalone server from the provied link.')
+            ->setDescription('Get the selenium standalone server from the provided link.')
         ;
     }
 
